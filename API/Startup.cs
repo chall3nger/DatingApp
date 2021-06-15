@@ -16,7 +16,7 @@ using Microsoft.Extensions.Logging;
 
 namespace API
 {
-    public class Startup
+    public class Startup 
     {
 
         private readonly IConfiguration _config;
