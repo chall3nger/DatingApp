@@ -1,6 +1,7 @@
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
+using API.Controllers;
 using API.Data;
 using API.DTOs;
 using API.Entities;
@@ -8,7 +9,7 @@ using API.InterFaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace API.Controllers
+namespace API.Controller
 {
     public class AccountController : BaseApiController
     {
